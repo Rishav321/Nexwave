@@ -1,0 +1,134 @@
+------------------------------------------------------------------------------
+01/06/2020 08:50:06 ** Saving... Repository EDW_DEV, Folder DATA_STRUCTURES
+------------------------------------------------------------------------------
+source SALES_TRANSACTIONS:EMPLOYEES inserted.
+source SALES_TRANSACTIONS:SALES_CUSTOMERS inserted.
+source SALES_TRANSACTIONS:TRANSACTIONS inserted.
+source SALES_TRANSACTIONS:MARKETING_CUSTOMERS inserted.
+source SALES_TRANSACTIONS:CUSTOMER_ORDERS inserted.
+source SALES_TRANSACTIONS:CURRENT_EMPLOYEES inserted.
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+01/06/2020 08:52:14 ** Saving... Repository EDW_DEV, Folder DATA_STRUCTURES
+------------------------------------------------------------------------------
+source OPERATIONAL_DATA_STORE:ODS_TRANS_REVENUE inserted.
+source OPERATIONAL_DATA_STORE:ODS_DEALER_SALES inserted.
+source OPERATIONAL_DATA_STORE:ODS_DAILY_SALES_DATES inserted.
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+01/06/2020 08:54:22 ** Saving... Repository EDW_DEV, Folder DATA_STRUCTURES
+------------------------------------------------------------------------------
+source ENTERPRISE_DATA_WAREHOUSE:FACTS_ATOMIC inserted.
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+01/06/2020 08:56:43 ** Saving... Repository EDW_DEV, Folder DATA_STRUCTURES
+------------------------------------------------------------------------------
+source FlatFile:SALES_TRANSACTIONS inserted.
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+01/06/2020 09:05:07 ** Saving... Repository EDW_DEV, Folder DATA_STRUCTURES
+------------------------------------------------------------------------------
+source FlatFile:DAILY_TRANSACTION inserted.
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+01/06/2020 09:08:32 ** Saving... Repository EDW_DEV, Folder DATA_STRUCTURES
+------------------------------------------------------------------------------
+Target ODS_DAILY_SALES_DATES inserted.
+Target ODS_HIGH_INCOME_FEMALE inserted.
+Target ODS_HIGH_INCOME_SENIOR inserted.
+Target ODS_TRANSACTIONS inserted.
+Target ODS_TRANS_REVENUE inserted.
+Target ODS_REV_DATE_NAME_PAYMENT inserted.
+Target ODS_HIGH_INCOME_MALE inserted.
+Target ODS_DEALER_SALES inserted.
+Target ODS_CUST_TRANS_DETAIL inserted.
+Target ODS_CUST_DEALER_DETAIL inserted.
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+01/06/2020 09:09:05 ** Saving... Repository EDW_DEV, Folder DATA_STRUCTURES
+------------------------------------------------------------------------------
+Target DIM_EMPLOYEES inserted.
+Target DIM_TIME inserted.
+Target SUM_PRODUCT_DATE inserted.
+Target SUM_PRODUCT_MONTH inserted.
+Target SUM_PRODUCT_DEALERSHIP inserted.
+Target FACTS_ATOMIC inserted.
+Target DIM_PRODUCTS inserted.
+Target DIM_DEALERSHIP inserted.
+Target DIM_CUSTOMERS inserted.
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+01/06/2020 09:16:14 ** Saving... Repository EDW_DEV, Folder LOAD_ODS
+------------------------------------------------------------------------------
+Shortcut to source SALES_TRANSACTIONS:Shortcut_to_TRANSACTIONS inserted.
+Validating transformations of mapping m_CURRENT_TRANS_REVENUE...
+...transformation validation completed with no errors.
+Validating data flow of mapping m_CURRENT_TRANS_REVENUE...
+...mapping  has no Targets.
+...Mapping must have at least one loadable target.
+...there are data flow validation errors.
+Parsing mapping m_CURRENT_TRANS_REVENUE...
+...parsing completed with no errors.
+
+******** Mapping m_CURRENT_TRANS_REVENUE is INVALID ********
+mapping  m_CURRENT_TRANS_REVENUE inserted.
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+01/06/2020 09:44:24 ** Saving... Repository EDW_DEV, Folder LOAD_ODS
+------------------------------------------------------------------------------
+Shortcut to target Shortcut_to_ODS_TRANS_REVENUE inserted.
+Validating transformations of mapping m_CURRENT_TRANS_REVENUE...
+...transformation validation completed with no errors.
+Validating data flow of mapping m_CURRENT_TRANS_REVENUE...
+...data flow validation completed with no errors.
+Parsing mapping m_CURRENT_TRANS_REVENUE...
+...parsing completed with no errors.
+
+******** Mapping m_CURRENT_TRANS_REVENUE is VALID ********
+mapping  m_CURRENT_TRANS_REVENUE updated.
+------------------------------------------------------------------------------
+
+Parsing expression (SELLING_PRICE * QUANTITY) * ((100-DISCOUNT)/100)
+-HOLDBACK-REBATE
+------------------------------------------------------------------------------
+Field:SELLING_PRICE found
+Field:QUANTITY found
+Field:DISCOUNT found
+Field:HOLDBACK found
+Field:REBATE found
+
+------------------------------------------------------------------------------
+1/6/2020 10:41:45 AM ** Validating mapping m_CURRENT_TRANS_REVENUE
+------------------------------------------------------------------------------
+Validating transformations of mapping m_CURRENT_TRANS_REVENUE...
+...transformation validation completed with no errors.
+Validating data flow of mapping m_CURRENT_TRANS_REVENUE...
+...data flow validation completed with no errors.
+Parsing mapping m_CURRENT_TRANS_REVENUE...
+...parsing completed with no errors.
+
+******** Mapping m_CURRENT_TRANS_REVENUE is VALID ********
+
+
+
+
+
+
+
+
