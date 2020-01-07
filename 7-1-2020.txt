@@ -1,0 +1,24 @@
+Starting wf_LOAD_ODS
+(IS_EDW_DEV) Start workflow: Request acknowledged
+(IS_EDW_DEV) Start workflow: INFO: Starting execution of workflow [wf_LOAD_ODS] in folder [LOAD_ODS] last saved by user [tsmith].
+Starting wf_LOAD_ODS
+(IS_EDW_DEV) Start workflow: Request acknowledged
+(IS_EDW_DEV) Start workflow: INFO: Starting execution of workflow [wf_LOAD_ODS] in folder [LOAD_ODS] last saved by user [tsmith].
+Starting wf_LOAD_ODS
+(IS_EDW_DEV) Start workflow: Request acknowledged
+(IS_EDW_DEV) Start workflow: INFO: Starting execution of workflow [wf_LOAD_ODS] in folder [LOAD_ODS] last saved by user [tsmith].
+Starting s_m_CUSTOMER_ORDER_DATA
+(IS_EDW_DEV) Start workflow from task: Request acknowledged
+(IS_EDW_DEV) Start workflow from task: INFO: Starting execution of workflow [wf_LOAD_ODS] in folder [LOAD_ODS] last saved by user [tsmith].
+Starting s_m_CUSTOMER_ORDER_DATA
+(IS_EDW_DEV) Start workflow from task: Request acknowledged
+(IS_EDW_DEV) Start workflow from task: INFO: Starting execution of workflow [wf_LOAD_ODS] in folder [LOAD_ODS] last saved by user [tsmith].
+Starting s_m_CUSTOMER_ORDER_DATA
+(IS_EDW_DEV) Start task: Request acknowledged
+(IS_EDW_DEV) Start task: INFO: Starting execution of workflow [wf_LOAD_ODS] in folder [LOAD_ODS] last saved by user [tsmith].
+Starting s_m_CUSTOMER_ORDER_DATA
+(IS_EDW_DEV) Start workflow from task: Request acknowledged
+(IS_EDW_DEV) Start workflow from task: INFO: Starting execution of workflow [wf_LOAD_ODS] in folder [LOAD_ODS] last saved by user [tsmith].
+Starting wf_LOAD_ODS
+(IS_EDW_DEV) Start workflow: Request acknowledged
+(IS_EDW_DEV) Start workflow: INFO: Starting execution of workflow [wf_LOAD_ODS] in folder [LOAD_ODS] last saved by user [tsmit
